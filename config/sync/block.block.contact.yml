@@ -1,0 +1,25 @@
+uuid: 9086a84e-5245-454a-a501-66df9e1b9588
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f2745e3c-19fc-4674-8339-40a7054cc48a'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: contact
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:f2745e3c-19fc-4674-8339-40a7054cc48a'
+settings:
+  id: 'block_content:f2745e3c-19fc-4674-8339-40a7054cc48a'
+  label: contact
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

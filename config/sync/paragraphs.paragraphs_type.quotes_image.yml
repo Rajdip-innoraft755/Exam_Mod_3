@@ -1,0 +1,10 @@
+uuid: 31e18954-507c-42b3-8efd-d2569148c1a9
+langcode: en
+status: true
+dependencies: {  }
+id: quotes_image
+label: 'Quotes image'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

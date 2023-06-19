@@ -1,0 +1,14 @@
+uuid: 3fd5af6e-e3bd-48d6-8305-46e1bad772e1
+langcode: en
+status: true
+dependencies: {  }
+name: news
+label: news
+effects:
+  85e9d0aa-68ea-4fc0-babe-afd1012fe802:
+    uuid: 85e9d0aa-68ea-4fc0-babe-afd1012fe802
+    id: image_resize
+    weight: 2
+    data:
+      width: 50
+      height: 50
