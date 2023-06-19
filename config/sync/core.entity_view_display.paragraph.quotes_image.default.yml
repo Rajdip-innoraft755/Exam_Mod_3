@@ -1,0 +1,36 @@
+uuid: 2519ca4c-5250-4836-a3a3-a27032e702ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quotes_image.field_image
+    - field.field.paragraph.quotes_image.field_quote
+    - image.style.medium
+    - paragraphs.paragraphs_type.quotes_image
+  module:
+    - image
+id: paragraph.quotes_image.default
+targetEntityType: paragraph
+bundle: quotes_image
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_quote:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

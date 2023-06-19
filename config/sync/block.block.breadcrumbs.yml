@@ -1,0 +1,20 @@
+uuid: 62a4aee8-2cd2-40fe-b249-97cd4a3b0cb7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero
+id: breadcrumbs
+theme: olivero
+region: breadcrumb
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
